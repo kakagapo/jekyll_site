@@ -1,0 +1,46 @@
+E:\mine\kakagapo.github.io>bundle install
+Fetching gem metadata from https://rubygems.org/...........
+Fetching gem metadata from https://rubygems.org/.
+Resolving dependencies...
+Using public_suffix 3.0.3
+Using addressable 2.5.2
+Using bundler 1.17.1
+Using colorator 1.1.0
+Using concurrent-ruby 1.1.3
+Using eventmachine 1.2.7 (x64-mingw32)
+Using http_parser.rb 0.6.0
+Using em-websocket 0.5.1
+Using ffi 1.9.25 (x64-mingw32)
+Using forwardable-extended 2.6.0
+Using i18n 0.9.5
+Using rb-fsevent 0.10.3
+Using rb-inotify 0.9.10
+Using sass-listen 4.0.0
+Using sass 3.7.2
+Using jekyll-sass-converter 1.5.2
+Using ruby_dep 1.5.0
+Using listen 3.1.5
+Using jekyll-watch 2.1.2
+Using kramdown 1.17.0
+Using liquid 4.0.1
+Using mercenary 0.3.6
+Using pathutil 0.16.2
+Using rouge 3.3.0
+Using safe_yaml 1.0.4
+Using jekyll 3.8.5
+Fetching jekyll-feed 0.11.0
+Installing jekyll-feed 0.11.0
+Fetching jekyll-seo-tag 2.5.0
+Installing jekyll-seo-tag 2.5.0
+Fetching minima 2.5.0
+Installing minima 2.5.0
+Fetching thread_safe 0.3.6
+Installing thread_safe 0.3.6
+Fetching tzinfo 1.2.5
+Installing tzinfo 1.2.5
+Fetching tzinfo-data 1.2018.7
+Installing tzinfo-data 1.2018.7
+Fetching wdm 0.1.1
+Installing wdm 0.1.1 with native extensions
+Bundle complete! 5 Gemfile dependencies, 33 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.

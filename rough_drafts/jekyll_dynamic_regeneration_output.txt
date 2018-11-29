@@ -1,0 +1,30 @@
+E:\mine\kakagapo.github.io>bundle exec jekyll serve
+Configuration file: E:/mine/kakagapo.github.io/_config.yml
+            Source: E:/mine/kakagapo.github.io
+       Destination: E:/mine/kakagapo.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+       Jekyll Feed: Generating feed for posts
+                    done in 1.301 seconds.
+ Auto-regeneration: enabled for 'E:/mine/kakagapo.github.io'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+[2018-11-28 20:17:50] ERROR `/favicon.ico' not found.
+      Regenerating: 3 file(s) changed at 2018-11-28 20:27:13
+                    git_config.txt
+                    installer output.txt
+                    steps.txt
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.328581 seconds.
+
+      Regenerating: 2 file(s) changed at 2018-11-28 20:27:57
+                    ruby_installer_output.txt
+                    installer output.txt
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.341318 seconds.
+
+      Regenerating: 2 file(s) changed at 2018-11-28 20:28:15
+                    jekyll_setup.txt
+                    steps.txt
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.313185 seconds.
