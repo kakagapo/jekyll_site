@@ -1,3 +1,9 @@
+---
+layout: page
+title: Jekyll
+permalink: /jekyll-setup/
+---
+
 RubyInstaller
 https://rubyinstaller.org/downloads/
 Ruby+Devkit 2.5.3-1 (x64) 

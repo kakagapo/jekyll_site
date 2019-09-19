@@ -1,3 +1,9 @@
+---
+layout: page
+title: Radio
+permalink: /radio-sdr/
+---
+
 Airspy 
 SDR#
 
