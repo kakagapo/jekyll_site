@@ -1,3 +1,8 @@
+---
+layout: page
+title: Distributed systems
+permalink: /dist-sys
+---
 Partitioning schemes:
 ====================
 1) Deterministic

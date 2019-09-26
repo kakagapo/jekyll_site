@@ -1,3 +1,9 @@
+---
+layout: encoding
+title: Encoding
+permalink: /encoding
+---
+
 Fibonacci coding:
 ================
 1) Positive Integers to binary code words.
