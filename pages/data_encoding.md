@@ -1,5 +1,5 @@
 ---
-layout: encoding
+layout: page
 title: Encoding
 permalink: /encoding
 ---

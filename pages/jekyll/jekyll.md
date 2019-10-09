@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jekyll
-permalink: /jekyll-setup/
+permalink: /jekyll
 ---
 
 RubyInstaller
@@ -9,11 +9,9 @@ https://rubyinstaller.org/downloads/
 Ruby+Devkit 2.5.3-1 (x64) 
 
 It installs MSYS2. 
-
-
-   1 - MSYS2 base installation
-   2 - MSYS2 system update (optional)
-   3 - MSYS2 and MINGW development toolchain
+- MSYS2 base installation
+- MSYS2 system update (optional)
+- MSYS2 and MINGW development toolchain
    
 Select all the 3 options one-by-one.
    
@@ -43,6 +41,3 @@ Configuration file: E:/mine/kakagapo.github.io/_config.yml
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
 [2018-11-28 20:17:50] ERROR `/favicon.ico' not found.
-
-
-
