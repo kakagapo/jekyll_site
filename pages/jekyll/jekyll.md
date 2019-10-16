@@ -27,8 +27,12 @@ Based on info from the page https://github.com/jekyll/jekyll/issues/5165 did the
 gem install bundler
 bundle install
 
-Now execute bundle exec jekyll serve
+Now execute 
+```
+bundle exec jekyll serve
+```
 
+```
 E:\mine\kakagapo.github.io>bundle exec jekyll serve
 Configuration file: E:/mine/kakagapo.github.io/_config.yml
             Source: E:/mine/kakagapo.github.io
@@ -41,3 +45,4 @@ Configuration file: E:/mine/kakagapo.github.io/_config.yml
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
 [2018-11-28 20:17:50] ERROR `/favicon.ico' not found.
+```
