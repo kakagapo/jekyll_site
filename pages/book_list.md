@@ -14,3 +14,7 @@ Programming:
 Science:
 ========
 - Theo Gray's Mad Science: Experiments You Can Do at Home - But Probably Shouldn't
+
+Radio:
+======
+- [5G Mobile Networks: A Systems Approach](https://5g.systemsapproach.org/index.html)
