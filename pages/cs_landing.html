@@ -1,0 +1,13 @@
+---
+layout: page
+title: Computer Science
+permalink: /cs
+---
+<h1> Fundamentals</h1>
+<ul>
+  {% for funda in site.cs %}
+  <li>
+    <a href="{{ funda.url }}">{{ funda.title }}</a>
+  </li>
+{% endfor %}
+</ul>

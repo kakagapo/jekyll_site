@@ -46,3 +46,10 @@ Configuration file: E:/mine/kakagapo.github.io/_config.yml
   Server running... press ctrl-c to stop.
 [2018-11-28 20:17:50] ERROR `/favicon.ico' not found.
 ```
+
+### Alternate themes:
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) : source can be found [here](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src)
+
+### Note: 
+- Changes to ```_config.yml``` requires restarting jekyll
+- Use [collections](https://jekyllrb.com/docs/collections/) to organize the data. Before the introduction of the ```cs``` collection the top navigation had links to all the pages in the site.
