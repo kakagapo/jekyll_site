@@ -4,34 +4,18 @@ title: Jekyll
 permalink: /jekyll
 ---
 
-RubyInstaller
-https://rubyinstaller.org/downloads/
-Ruby+Devkit 2.5.3-1 (x64) 
+### Important commands:
+- To setup new site
+```$ jekyll new jekyll_site``` 
+- To install dependencies
+```bundle install```
+- To update dependencies
+```bundle update```
+- To serve the site at 127.0.0.1:4000
+```bundle exec jekyll serve```
 
-It installs MSYS2. 
-- MSYS2 base installation
-- MSYS2 system update (optional)
-- MSYS2 and MINGW development toolchain
-   
-Select all the 3 options one-by-one.
-   
-   
-E:\mine\new>jekyll new kakagapo.github.io
-Could not load Bundler. Bundle install skipped.
-New jekyll site installed in E:/mine/new/kakagapo.github.io.
-
-
-Execute the following command:
+jekyll serve output
 ------------------------------
-Based on info from the page https://github.com/jekyll/jekyll/issues/5165 did the following to setup bundler.
-gem install bundler
-bundle install
-
-Now execute 
-```
-bundle exec jekyll serve
-```
-
 ```
 E:\mine\kakagapo.github.io>bundle exec jekyll serve
 Configuration file: E:/mine/kakagapo.github.io/_config.yml
@@ -52,4 +36,48 @@ Configuration file: E:/mine/kakagapo.github.io/_config.yml
 
 ### Note: 
 - Changes to ```_config.yml``` requires restarting jekyll
-- Use [collections](https://jekyllrb.com/docs/collections/) to organize the data. Before the introduction of the ```cs``` collection the top navigation had links to all the pages in the site.
+- Use [collections](https://jekyllrb.com/docs/collections/) to organize the data. Before the introduction of the ```cs``` collection to this site the top navigation had links to all the pages in the site (because that is what minima theme does).
+- If  ```bundle exec jekyll serve``` fails with messsage saying ```can't find gem bundler``` when you know for sure bundler is installed, it might be because the bundler version in the Gemfile.lock does not match the version installed. This was a problem with older versions of gem and updating gem will fix the issue.
+
+```
+$ bundle exec jekyll serve
+Traceback (most recent call last):
+	2: from /home/kakagapo/gems/bin/bundle:23:in `<main>'
+	1: from /usr/lib/ruby/2.5.0/rubygems.rb:308:in `activate_bin_path'
+/usr/lib/ruby/2.5.0/rubygems.rb:289:in `find_spec_for_exe': can't find gem bundler (>= 0.a) with executable bundle (Gem::GemNotFoundException)
+```
+```
+$ sudo gem update --system
+[sudo] password for kakagapo: 
+Updating rubygems-update
+Fetching: rubygems-update-3.0.6.gem (100%)
+Successfully installed rubygems-update-3.0.6
+Parsing documentation for rubygems-update-3.0.6
+Installing ri documentation for rubygems-update-3.0.6
+Installing darkfish documentation for rubygems-update-3.0.6
+Done installing documentation for rubygems-update after 49 seconds
+Parsing documentation for rubygems-update-3.0.6
+Done installing documentation for rubygems-update after 0 seconds
+Installing RubyGems 3.0.6
+
+...
+
+RubyGems system software updated
+```
+
+- Still having issues ? Try running ```bundle install``` to get the missing gems.
+
+```
+$ bundle exec jekyll serve
+Could not find public_suffix-4.0.1 in any of the sources
+Run `bundle install` to install missing gems.
+$ bundle install
+Fetching gem metadata from https://rubygems.org/...........
+Fetching gem metadata from https://rubygems.org/.
+Resolving dependencies...
+Fetching public_suffix 4.0.1
+...
+Installing minima 2.5.1
+Bundle complete! 4 Gemfile dependencies, 28 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+```
