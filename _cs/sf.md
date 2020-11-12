@@ -47,3 +47,8 @@ Notes:
 - ktl -> provides compartmentalization, does leak detection in debug mode
 - Failover Manager(FM) is responsible for initiating the replica addition when we do ops like TargetReplicaSetSize increase say from 3 to 5.
 
+## Abbreviations:
+- RA - Reconfiguration Agent
+- FM - Failover Manager
+- DCA - Data Collection Agent
+- CHM - Cluster Health Manager
